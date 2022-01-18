@@ -1,17 +1,18 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "create-bucket.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.1048.0",
+    "aws-sdk": "^2.1052.0",
     "express": "^4.17.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
