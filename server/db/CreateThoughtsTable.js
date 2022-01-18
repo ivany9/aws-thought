@@ -1,11 +1,10 @@
 const AWS = require('aws-sdk');
 AWS.config.update({
-    region: 'us-east-2' 
-    
-  });
+  region: "us-east-2"
+});
   const dynamodb = new AWS.DynamoDB({apiVersion: '2012-08-10'});
   const params = {
-    TableName : "Thoughts",
+    TableName : "Thoughts1",
     KeySchema: [       
       { AttributeName: "username", KeyType: "HASH"},  // Partition key
       { AttributeName: "createdAt", KeyType: "RANGE" }  // Sort key
