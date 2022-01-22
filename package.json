@@ -16,7 +16,9 @@
   "dependencies": {
     "aws-sdk": "^2.1052.0",
     "if-env": "^1.0.4",
-    "uuid": "^8.3.2"
+    "multer": "^1.4.4",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "concurrently": "^5.1.0"
